@@ -20,7 +20,7 @@ import java.util.*;
  	  String shape = sc.nextLine();
  	 	CalculateArea shape1 = new CalculateArea();
  	 	if (shape.equals("circle")) {
- 	 		System.out.println("Please enter radius");
+ 	 		       System.out.println("Please enter radius");
             float radius = sc.nextFloat();
             System.out.println("Area of circlr is :" + shape1.circle(radius));
 
@@ -33,19 +33,19 @@ import java.util.*;
             System.out.println("Area of triangle is :" + shape1.triangle( base, altitude ));
         
         }else if (shape.equals("rectangle")) {
-        	System.out.println("Please enter length");
+        	   System.out.println("Please enter length");
             float length = sc.nextFloat();
-         	System.out.println("Please enter width");
-        	float width = sc.nextFloat();
-         	System.out.println("Area of rectangle is :" + shape1.rectangle(length, width));
+         	  System.out.println("Please enter width");
+        	   float width = sc.nextFloat();
+         	  System.out.println("Area of rectangle is :" + shape1.rectangle(length, width));
         
         }else if (shape.equals("square")) {
-        	System.out.println("Please enter side");
-         	float side = sc.nextFloat();
-         	System.out.println(shape1.square(side));
+        	  System.out.println("Please enter side");
+         	 float side = sc.nextFloat();
+         	 System.out.println(shape1.square(side));
         
         } else {
-        System.out.println("Wrong Choice");
+          System.out.println("Wrong Choice");
         }
 
         }
