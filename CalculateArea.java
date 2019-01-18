@@ -17,7 +17,7 @@ import java.util.*;
     }
  	public static void main (String args[]) {
  	 	Scanner sc = new Scanner(System.in); 
- 	    String shape = sc.nextLine();
+ 	  String shape = sc.nextLine();
  	 	CalculateArea shape1 = new CalculateArea();
  	 	if (shape.equals("circle")) {
  	 		System.out.println("Please enter radius");
